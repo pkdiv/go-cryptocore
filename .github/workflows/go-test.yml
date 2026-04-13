@@ -20,5 +20,5 @@ jobs:
     - name: Install dependencies
       run: go mod download
 
-    - name: Run KDF Tests
-      run: go test -v ./kdf/...
+    - name: Run Tests
+      run: go test -v ./...
